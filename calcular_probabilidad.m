@@ -9,7 +9,7 @@ function [probabilidad, todas_las_probabilidades] = calcular_probabilidad(epsilo
     probabilidad_anterior = probabilidad_actual;
     T1=my_mex_service(41675923);
     T2=my_mex_service(41675923);
-    % se actualizan la cantidad de tiradas
+    % se actualizan las tiradas
     total_de_tiradas = total_de_tiradas + 1;
     if ((T1==0)&&(T2==0))
       casos_favorables = casos_favorables + 1;
